@@ -28,26 +28,26 @@ chest_x-ray_classification
 ### ch01_resnet152_finetune.ipynb
 
 基于预训练模型**ResNet152的全连接层微调**，其实际训练脚本位于[chest-x-ray-resnet152-finetune](https://www.kaggle.com/code/yukikonata/chest-x-ray-resnet152-finetune)。训练过程如下：
-![resnet152_finetune_loss_acc](assets\resnet152_finetune_loss_acc.png)
-![resnet152_finetune_evaluation](assets\resnet152_finetune_evaluation.jpg)
-![resnet152_finetune_confusion_matrix](assets\resnet152_finetune_confusion_matrix.png)
-![resnet152_finetune_predict](assets\resnet152_finetune_predict.png)
+![resnet152_finetune_loss_acc](assets/resnet152_finetune_loss_acc.png)
+![resnet152_finetune_evaluation](assets/resnet152_finetune_evaluation.jpg)
+![resnet152_finetune_confusion_matrix](assets/resnet152_finetune_confusion_matrix.png)
+![resnet152_finetune_predict](assets/resnet152_finetune_predict.png)
 
 ### ch02_resnet50_train.ipynb
 
 基于预训练模型**ResNet50的全参数微调**，其实际训练脚本位于[chest-x-ray-resnet50-train](https://www.kaggle.com/code/yukikonata/chest-x-ray-resnet50-train)。训练过程如下：
-![resnet50_train_loss_acc](assets\resnet50_train_loss_acc.png)
-![resnet50_train_evaluation](assets\resnet50_train_evaluation.jpg)
-![resnet50_train_confusion_matrix](assets\resnet50_train_confusion_matrix.png)
-![resnet50_train_predict](assets\resnet50_train_predict.png)
+![resnet50_train_loss_acc](assets/resnet50_train_loss_acc.png)
+![resnet50_train_evaluation](assets/resnet50_train_evaluation.jpg)
+![resnet50_train_confusion_matrix](assets/resnet50_train_confusion_matrix.png)
+![resnet50_train_predict](assets/resnet50_train_predict.png)
 
 ### ch03_vit_finetune.ipynb
 
 基于预训练模型**ViT-b-16的全连接层微调**，其实际训练脚本位于[chest-x-ray-vit-b-16-finetune](https://www.kaggle.com/code/yukikonata/chest-x-ray-vit-b-16-finetune)。训练过程如下：
-![vit_b_16_finetune_loss_acc](assets\vit_b_16_finetune_loss_acc.png)
-![vit_b_16_finetune_evaluation](assets\vit_b_16_finetune_evaluation.jpg)
-![vit_b_16_finetune_confusion_matrix](assets\vit_b_16_finetune_confusion_matrix.png)
-![vit_b_16_finetune_predict](assets\vit_b_16_finetune_predict.png)
+![vit_b_16_finetune_loss_acc](assets/vit_b_16_finetune_loss_acc.png)
+![vit_b_16_finetune_evaluation](assets/vit_b_16_finetune_evaluation.jpg)
+![vit_b_16_finetune_confusion_matrix](assets/vit_b_16_finetune_confusion_matrix.png)
+![vit_b_16_finetune_predict](assets/vit_b_16_finetune_predict.png)
 
 ## 三、实验结论 
 下面对三种模型训练策略的结果进行分析和总结。
