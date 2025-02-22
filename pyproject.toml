@@ -1,0 +1,36 @@
+[project]
+name = "chest-x-ray-classification"
+version = "0.1.0"
+description = "Chest X-ray 肺炎数据集图像分类"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipywidgets>=8.1.5",
+    "kaggle>=1.6.17",
+    "kagglehub>=0.3.9",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "torch>=2.6.0",
+    "torchaudio>=2.6.0",
+    "torchvision>=0.21.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu126", marker = "platform_system != 'Darwin'" },
+]
+torchvision = [
+  { index = "pytorch-cu126", marker = "platform_system != 'Darwin'" },
+]
